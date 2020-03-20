@@ -11,7 +11,7 @@
 const bool = false;
 const num = 42;
 const undef = undefined;
-const str = ("My first JS test " + '1337');
+const str = ('1337');
 
 //* Begin of tests
 const assert = require('assert');
