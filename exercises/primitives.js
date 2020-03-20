@@ -9,8 +9,9 @@
 
 // Your code:
 const bool = false;
-const num = (40 + 2);
+const num = 42;
 const undef = undefined;
+const str = ("My first JS test " + '1337');
 
 //* Begin of tests
 const assert = require('assert');
