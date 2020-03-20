@@ -8,6 +8,9 @@
  */
 
 // Your code:
+const bool = false;
+const num = (40 + 2);
+const undef = undefined;
 
 //* Begin of tests
 const assert = require('assert');
