@@ -8,6 +8,13 @@
 
 // Your code:
 
+const total = ([a]) => {
+    for (let i = 0; i <total.length ; i++)
+    a += a[i]
+    return a
+};
+
+
 //* Begin of tests
 const assert = require('assert');
 
