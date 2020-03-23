@@ -8,10 +8,12 @@
 
 // Your code:
 
-const total = ([a]) => {
-    for (let i = 0; i <total.length ; i++)
-    a += a[i]
-    return a
+const total = (numbers) => {
+    let sum = 0;
+    for (let i = 0; i <numbers.length ; i++)
+    sum += numbers[i]
+    return sum;
+
 };
 
 
