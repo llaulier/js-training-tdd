@@ -17,9 +17,9 @@ const sourceObject = {
 
 // Your code:
 
-const get = () =>{
-  users = [sourceObject]
-}
+const get = (arg) =>{
+  return sourceObject[arg]
+};
 
 //* Begin of tests
 const assert = require('assert');
