@@ -17,6 +17,10 @@ const sourceObject = {
 
 // Your code:
 
+const get = () =>{
+  users = [sourceObject]
+}
+
 //* Begin of tests
 const assert = require('assert');
 
@@ -26,4 +30,4 @@ assert.strictEqual(get('bool'), true);
 assert.strictEqual(get('str'), 'some text');
 assert.strictEqual(get('log'), console.log);
 assert.strictEqual(get('noexist'), undefined);
-// End of tests */
+// End ofxs tests */

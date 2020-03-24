@@ -9,10 +9,15 @@
 
 // Your code:
 
-const getLength = () => {
-    array = [],
-    string = ''
+
+const getLength = (arrayOrString) => {
+    const arrStr = {
+        arr: [],
+        str:'',
+    };
+    return arrayOrString.length
 };
+   
 
 //* Begin of tests
 const assert = require('assert');
