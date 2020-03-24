@@ -11,10 +11,6 @@
 
 
 const getLength = (arrayOrString) => {
-    const arrStr = {
-        arr: [],
-        str:'',
-    };
     return arrayOrString.length
 };
    
