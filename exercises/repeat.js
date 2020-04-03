@@ -7,7 +7,7 @@
  * Of course you may not use the method directly
  */
 
-// Your code:
+
 
 //* Begin of tests
 const assert = require('assert');
