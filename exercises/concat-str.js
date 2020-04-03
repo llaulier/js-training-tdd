@@ -6,7 +6,9 @@
  * @notions Functions, Operators
  */
 
-// Your code:
+const concatStr = (a,b) =>{
+    return (a.concat(b));
+};
 
 //* Begin of tests
 const assert = require('assert');
